@@ -1,27 +1,38 @@
-var pleaseWork = [];
+var letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
+var vowels = ['a','e','i','o','u'];
 
-var rdmNum = Math.floor((Math.random()*9999)+1000);
-console.log(rdmNum);
+var vowelsArray = [];
+  
+ //  for(var i=0; i<letters.length; i++){
+    
+ //    for( var j = 0; j<vowels.length;j++){
+      
+ //      if(letters[i] === vowles[j]){
+        
+ //        vowelsArray.push(letters[i]);
+ //    }
+ //  }
+ //  } 
 
-var answer = rdmNum.toString().split("");
-console.log(answer);
-//pleaseWork.push(answer);
+  function getVowels(arr){
+    arr.filter(function(letter){
+      return isVowel(letter);
+    })
+    for(var i =0; i<letters.length; i++){
+     if( isVowel(arr[i]);
+    };
 
-var sum = 0
-for (var i = 0; i < answer.length; i++) {
-   var thing = parseInt(answer [i]);
-   pleaseWork.push(thing);
-};
+  }
 
-for (var j = 0; j < pleaseWork.length; j++) {
-  sum+= pleaseWork[j];
+  function isVowel(letter){
+    for (var i = 0 ; i < vowels.length; i++) {
+      if(vowels[i] === letter){
+        return true;
+      }
+    }
+    return false;
 
-};
+  }
 
-console.log(thing);
-console.log(pleaseWork);
-console.log(sum);
-
-//console.log(sum);
-//console.log(thing);
+  console.log(vowelsArray);

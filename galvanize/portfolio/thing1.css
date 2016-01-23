@@ -1,0 +1,73 @@
+#school{
+	 margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	color: white;
+
+	}
+body{
+	background: #81BACC;
+	}
+li{
+	color:white;
+	allign: bottom;
+	list-style-type: none;
+	
+	}
+colorado{
+	position: relative;
+	top: 600px;
+}
+pic{
+	margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 60px;
+    border-color: #FF4C40;
+
+    }
+    
+.border-right{
+	float:left;
+	height: 200px;
+	width: 200px;
+	}
+div{
+	margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+h2{
+	color:white;
+	
+	}
+.button{
+	display: block;
+	background: #FF4C40;
+	color: white;
+	height: 50px;
+	width: 300px;
+	border-radius: 15px;
+	border: 2px solid rgba(33, 68, 72, 0.59)
+	
+	text-align: center;
+	
+}
+
+	
+	
